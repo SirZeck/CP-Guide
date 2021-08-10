@@ -1,3 +1,3 @@
 # CP-Guide
 
-##Basic know-how's to Competitive Programming
+Basic know-how's to Competitive Programming
