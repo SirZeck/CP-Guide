@@ -1,16 +1,94 @@
 *{
     box-sizing: border-box;
-    margin: 10;
-    padding: 10;
-    font-family: 'PT Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    
 }
 
 body{
     width: 100%;
+    margin: 0;
+    padding: 1em;
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: 'PT Sans', sans-serif;
 }
+
+.wrapper {
+    width: 100%;
+}
+
+.ul1 {
+    padding: 1em;
+}
+
+img:hover {
+    opacity: 0.5;
+}
+
+.myImage {
+    float: left;
+    height: 150px;
+    width: 250px;
+    padding: 1em;
+    margin: 1em;
+    font-family: Verdana;
+}
+
+.box1 {
+    width: 100%;
+    padding: 1em;
+    margin: 1em;
+    background: rgba(128, 128, 128, 0.4);
+}
+
+.box2 {
+    width: 100%;
+    padding: 1em;
+    margin: 1em;
+    background: rgba(128, 128, 128, 0.1);
+}
+
+.box3 {
+    width: 100%;
+    padding: 1em;
+    margin: 1em;
+    background: rgba(128, 128, 128, 0.1);
+}
+
+.box4 {
+    width: 100%;
+    padding: 1em;
+    margin: 1em;
+    background: rgba(128, 128, 128, 0.1);
+}
+
+.box5 {
+    width: 100%;
+    padding: 1em;
+    margin: 1em;
+    background: rgba(128, 128, 128, 0.1);
+}
+
+.box6 {
+    width: 100%;
+    padding: 1em;
+    margin: 1em;
+    background: rgba(128, 128, 128, 0.4);
+}
+
+.feedback {
+    width: 100%;
+    padding: 1em;
+    margin: 1em;
+    background: black;
+    opacity: 0.9;
+    color: white;
+    font-size: 1em;
+}
+
+/* nav bar */
 
 .nav{
     width: 100%;
@@ -75,22 +153,16 @@ body{
     }
 }
 
-.myImage {
-    float: left;
-    height: 200px;
-    width: 400px;
-    font-family: Verdana;
-}
+/* ---- */
 
 p{
-    margin: 7;
     display: flex;
     justify-content: left;
-    padding-right: 1em;
-    padding-left: 0.7em;
+    padding: 0.5em;
     font-size: 1.1em;
 }
 
+/* links */
 a:visited {
     color: violet;
 }
