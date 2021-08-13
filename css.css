@@ -33,6 +33,7 @@ img:hover {
     width: 250px;
     padding: 1em;
     margin: 1em;
+    border-radius: 30px;
     font-family: Verdana;
 }
 
@@ -40,6 +41,7 @@ img:hover {
     width: 100%;
     padding: 1em;
     margin: 1em;
+    border-radius: 30px;
     background: rgba(128, 128, 128, 0.4);
 }
 
@@ -47,6 +49,7 @@ img:hover {
     width: 100%;
     padding: 1em;
     margin: 1em;
+    border-radius: 30px;
     background: rgba(128, 128, 128, 0.1);
 }
 
@@ -54,6 +57,7 @@ img:hover {
     width: 100%;
     padding: 1em;
     margin: 1em;
+    border-radius: 30px;
     background: rgba(128, 128, 128, 0.1);
 }
 
@@ -61,6 +65,7 @@ img:hover {
     width: 100%;
     padding: 1em;
     margin: 1em;
+    border-radius: 30px;
     background: rgba(128, 128, 128, 0.1);
 }
 
@@ -68,6 +73,7 @@ img:hover {
     width: 100%;
     padding: 1em;
     margin: 1em;
+    border-radius: 30px;
     background: rgba(128, 128, 128, 0.1);
 }
 
@@ -86,6 +92,7 @@ img:hover {
     flex-direction: row;
     position: sticky;
     top: 0;
+    border-radius: 10px;
 }
 
 .logo{
@@ -103,6 +110,7 @@ img:hover {
     align-items: center;
     background: black;
     color: white;
+    border-radius: 30px;
 }
 
 .title{
@@ -139,19 +147,24 @@ a:hover {
 	justify-content: center;
 	padding: 1em;
 	margin: 1em;
+    border-radius: 30px;
     background: rgba(128, 128, 128, 0.1);
 }
 .item-tile{
 	margin: 0.8em;
 	float: left;
 	box-shadow: 1px 1px 5px 1px grey;
+    border-radius: 30px;
 	box-sizing: border-box;
+    
 }
 
 .item-img{
 	width: 100%;
 	height: 300px;
 	object-fit: cover;
+    border-radius: 30px;
+    overflow: hidden;
 }
 
 .item-text {
@@ -163,6 +176,7 @@ a:hover {
 	color: #fff;
 	background: black;
 	opacity: 0.8;
+    border-radius: 30px;
 }
 
 @media (max-width: 768){
