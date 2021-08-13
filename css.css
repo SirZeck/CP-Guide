@@ -103,9 +103,16 @@ img:hover {
     top: 0;
 }
 
+.logo{
+	width: 30%;
+	padding-top: 1em;
+	font-weight: bold;
+    color: darkgray;
+}
+
 .nav a {
     float: left;
-    color: white;
+    color: darkgray;
     text-align: center;
     padding: 16px 16px;
     text-decoration: none;
@@ -139,7 +146,7 @@ img:hover {
   }
 
 /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 720px) {
     .nav a, .nav input[type=text], .nav .search-container button {
       float: none;
       display: block;
