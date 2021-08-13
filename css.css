@@ -212,13 +212,19 @@ a:hover {
     border-radius: 30px;
 }
 
-@media (max-width: 768){
+@media screen and (max-width: 768){
 	.item-tile{
 		width: 100%;
 	}
 }
 
-@media screen and (min-width: 769px){
+@media screen and (min-width: 769px) and (max-width: 1280px){
+	.item-tile{
+		width: 45%;
+	}
+}
+
+@media screen and (min-width: 1281px){
 	.item-tile{
 		width: 30%;
 	}
