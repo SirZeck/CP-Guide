@@ -103,6 +103,13 @@ img:hover {
     top: 0;
 }
 
+.navbar-items {
+	width: 70%;
+	text-align: end;
+	
+}
+
+
 .logo{
 	width: 30%;
 	padding-top: 1em;
