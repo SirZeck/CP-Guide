@@ -15,6 +15,28 @@ body{
     font-family: 'PT Sans', sans-serif;
 }
 
+/*Floating Back-To-Top Button*/
+#myBtn {
+    position: fixed;
+    bottom: 20px;
+    float: left;
+    left: 90%;
+    max-width: 70px;
+    max-height: 30px;
+    width: 100%;
+    height: 100%;
+    font-size: 12px;
+    border-color: rgba(85, 85, 85, 0.2);
+    background-color: rgb(100,100,100);
+    padding: .5px;
+    border-radius: 5px;
+    opacity: 0.5;
+}
+/*On Hover Color Change*/
+#myBtn:hover {
+    background-color: #7dbbf1;
+}
+
 .wrapper {
     width: 100%;
 }
