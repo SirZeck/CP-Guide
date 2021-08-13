@@ -20,6 +20,7 @@ body{
     position: fixed;
     bottom: 20px;
     float: left;
+    right: 20%;
     left: 90%;
     max-width: 70px;
     max-height: 30px;
@@ -35,6 +36,12 @@ body{
 /*On Hover Color Change*/
 #myBtn:hover {
     background-color: #7dbbf1;
+}
+
+@media (max-width: 768){
+	#myBtn{
+		width: 100%;
+	}
 }
 
 .wrapper {
